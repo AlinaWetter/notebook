@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+    <link rel="icon" type="image/gif" href="./img/pen.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body id ="body" onload="renderIndex(); showLastThreeNotes();">
+    <header class="header">
+        <h1>Notizblock</h1>
+    </header>
+    <nav class="nav">
+        <a href="./index.html">Neue Notiz</a>
+        <a href="./archive.html">Alle Notizen</a>
+        <a href="#" onclick="toggleTrash()" >Papierkorb</a>
+    </nav>
+
+    
+
+    <div id="note" class="note">
+       
+    </div>
+
+    <div id="trash" class="d-none"></div>
+</body>
+
+</html>
